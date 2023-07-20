@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "useUnknownInCatchVariables": true, 
+        "allowJs": true,
+        "jsx": "react",
+        "target": "ES6",
+        "moduleResolution": "node"
+    },
+    "include": ["./src/**/*", "./tests/**/*"],
+    "outDir": ["./dist"],
+}
