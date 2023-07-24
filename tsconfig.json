@@ -14,8 +14,8 @@
         "allowJs": true,
         "jsx": "react",
         "target": "ES6",
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "outDir": "dist" 
     },
     "include": ["./src/**/*", "./tests/**/*"],
-    "outDir": ["./dist"],
 }
