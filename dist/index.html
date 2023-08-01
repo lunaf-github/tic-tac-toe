@@ -10,24 +10,25 @@
   </head>
   <body>
     <div class="frame">
-      <span class="score">
-        <span class="score__display"></span>
-        <span class="score__display"></span>
-      </span>
-      <div class="board"></div>
-    </div>
-    <div class="controls">
-      <button>Reset</button>
-      <button>Pause</button>
-    </div>
-    <div class="status-board"></div>
-    <div class="game-board-container">
-      <div class="game-board__xy-selector">
-        <p>Player1: Choose your symbol</p>
-        <button>X</button>
-        <button>O</button>
+      <div class="frame__status-display">
+        <span class="score">
+          <span class="score__display"></span>
+          <span class="score__display"></span>
+        </span>
+        <div class="controls">
+          <button>Reset</button>
+          <button>Pause</button>
+        </div>
+        <div class="status-board"></div>
       </div>
-      <canvas id="board"></canvas>
+      <div class="board">
+        <div class="board__xy-selector-screen">
+          <p>Player1: Choose your symbol</p>
+          <button>X</button>
+          <button>O</button>
+        </div>
+        <canvas id="board__lines"></canvas>
+      </div>
     </div>
   </body>
 </html>

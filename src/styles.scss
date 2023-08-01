@@ -1,0 +1,33 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+} 
+
+
+.frame {
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px;
+    height: 390px;
+    width: 400px;
+    background-color:  rgba(240, 180, 135, 1);
+    border-radius: 10px;
+    &__status-display {
+        border: 1px solid blue;
+        height: 1.5rem;
+    }
+}
+
+.board {
+    // margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    background-color: blue;
+}
+
+.score {
+    &__display {
+
+    }
+}

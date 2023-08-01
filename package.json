@@ -5,11 +5,12 @@
   "main": "./src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc -b"
+    "build": "sass --watch ./src/styles.scss ./dist/styles.css && tsc -b --watch"
   },
   "author": "Fernando Luna",
   "license": "ISC",
   "devDependencies": {
+    "sass": "^1.64.2",
     "typescript": "^5.1.6"
   },
   "browserslist": "> 0.25%, not dead"
