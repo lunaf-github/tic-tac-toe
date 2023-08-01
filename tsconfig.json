@@ -12,7 +12,6 @@
         "strictPropertyInitialization": true,
         "useUnknownInCatchVariables": true, 
         "allowJs": true,
-        "jsx": "react",
         "target": "ES6",
         "moduleResolution": "node",
         "outDir": "dist" 

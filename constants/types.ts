@@ -4,5 +4,7 @@ export type Player = {
 
 export type State = {
     player: string;
-    board: string[][];
+    board: string[];
+    score: {x: number, o:number};
+    winningCombos: number[][];
 }
